@@ -1,0 +1,58 @@
+@font-face{
+	font-family: "Outfit-Bold";
+	src: url(../fonts/Outfit-Bold.ttf);
+	font-style: bold;
+}
+@font-face{
+	font-family: "Outfit-Regular";
+	src: url(../fonts/Outfit-Regular.ttf);
+	font-style: normal;
+}
+html, *{
+	margin: 0;
+	padding:0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+body{
+	background:#D5E1EF;
+	display: flex;
+}
+.qrodeContainer{
+	width:320px;
+	/* height: 499px; */
+	border-radius:20px;
+	background:#fff;
+	margin: auto;
+	display: block;
+	padding:16px;
+	box-sizing: border-box;
+}
+.qrCodeBox{
+	width:288px;
+	height:288px;
+	border-radius:10px;
+	background:#2C7DFA;
+	text-align: center;
+}
+.qrCodeBox img{
+	width: 160px;
+	height: 160px;
+	margin: 64px;
+}
+.boldFontHead{
+	font-family:Outfit-Bold;
+	font-size:22px;
+	text-align:center;
+	margin-top:10px;
+	color: #1F314F;
+}
+.infoTextStyle{
+	font-family: Outfit-Regular;
+	font-size:15px;
+	color:#68778D;
+	text-align: center;
+	margin: 10px 15px 10px;
+}
